@@ -1,0 +1,188 @@
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font: normal 16px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* * {
+  padding: 0%;
+  margin: 0%;
+} */
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
+/* a:visited {
+  color: red;
+} */
+
+.avatar {
+  width: 200px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 24px blue;
+}
+
+.info p {
+  color: blue;
+  margin: 0;
+  font-style: italic;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+/* .social {
+  background-color: skyblue;
+  padding: 1px 25px;
+  border: 3px solid blue;
+  margin: 3px;
+} */
+
+.conteiner {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.bg-1 {
+  background-color: #fff9dc;
+}
+
+.bg-2 {
+  background-color: #d9f6db;
+}
+
+.bg-3 {
+  background-color: rgb(207, 229, 240);
+}
+
+.bg-4 {
+  background-color: #f1d2f1;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 3px 20px;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 6px;
+}
+
+.markes {
+  width: 100%;
+}
+
+.markes td {
+  padding-bottom: 6px;
+}
+
+/* .markes td:nth-child(2) {
+  color: aquamarine;
+} */
+.me h2 {
+  text-align: center;
+}
+
+.group label {
+  display: block;
+  size: 14px;
+  color: #133fed;
+}
+
+.group input,
+.group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  color: black;
+  padding: 12px 0 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .group:last-child {
+  margin-right: 0%;
+}
+
+.left {
+  margin-left: 40px;
+}
+
+.left h4 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  color: aqua;
+  padding: 15px 20px;
+  background-color: black;
+  border: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Position */
+
+/* .position {
+  position: relative;
+  border: 4px solid black;
+  margin-top: 40px;
+  padding: 300px;
+}
+
+.box {
+  position: absolute; fixed
+  top: 10px;
+  right: 0px;
+  /* bottom: 150px;
+  left: 0px; */
+/* width: 50px;
+  height: 50px;
+  background-color: lightgreen;
+} */
